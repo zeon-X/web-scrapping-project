@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikroy Scraper</title>
+  </head>
+  <body>
+    <h1>Bikroy Scraper</h1>
+
+    <!-- Add a search form with an input field and a submit button -->
+    <form method="POST" action="/search">
+      <input type="text" name="query" placeholder="Enter your search query" />
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- Display search results here -->
+    <div>
+      <h2>Search Results:</h2>
+      <ul>
+        {% if results %} {% for ad in results %}
+        <li>
+          <img
+            src="{{ ad['imgUrl'] }}"
+            alt="{{ ad['title'] }}"
+            width="100"
+            height="100"
+          />
+          <h3>{{ ad['title'] }}</h3>
+          <p>Location: {{ ad['location'] }}</p>
+          <p>Price: {{ ad['price'] }}</p>
+
+          <p>
+            Link:
+            <a href="{{ ad['link'] }}" target="_blank">View Details</a>
+          </p>
+        </li>
+        {% endfor %} {% else %}
+        <p>No results found.</p>
+        {% endif %}
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+{
+    "locale": "en",
+    "marketLocales": [
+        "en",
+        "bn"
+    ],
+    "locations": {
+        "type": "NotAsked"
+    },
+    "serp": {
+        "ads": {
+            "type": "Success",
+            "data": {
+                "ads": [
+                    {
+                        "id": "6511db0c7323920019bced86",
+                        "slug": "apple-iphone-15-pro-max256-new-for-sale-rajshahi-division",
+                        "title": "Apple IPHONE 15 PRO MAX256 (New)",
+                        "description": "Rajshahi Division, Mobile Phones",
+                        "details": "",
+                        "imgUrl": "https://i.bikroy-st.com/apple-iphone-15-pro-max256-new-for-sale-rajshahi-division/3035d132-f46d-4a61-b81e-73cc216ef6b1/160/120/cropped.jpg",
+                        "price": "Tk 192,990",
+                        "discount": 0,
+                        "mrp": 0,
+                        "isMember": true,
+                        "isAuthDealer": false,
+                        "isFeaturedMember": false,
+                        "membershipLevel": "plus",
+                        "shopName": "HR Gadget & Gallery",
+                        "isDoorstepDelivery": false,
+                        "isDeliveryFree": false,
+                        "isTopAd": true,
+                        "isUrgentAd": false,
+                        "timeStamp": "13 hours",
+                        "category": {
+                            "id": 230,
+                            "name": "Mobile Phones"
+                        },
+                        "isVerified": true,
+                        "isJobAd": false,
+                        "location": "Rajshahi Division",
+                        "adType": "for_sale",
+                        "isLocalJob": false
+                    }
+                ]
+            }
+        }
+    }
+}
