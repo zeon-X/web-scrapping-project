@@ -33,13 +33,13 @@ def scrape_bikroy(query):
             ads_array = json_data['serp']['ads']['data']['ads']
 
             # You can now work with the 'ads_array' as needed
-            # for idx, ad in enumerate(ads_array, start=1):
-            #     print(f"Ad {idx}:")
-            #     print(f"Title: {ad['title']}")
-            #     print(f"Location: {ad['location']}")
-            #     print(f"Price: {ad['price']}")
-            #     print(f"Link: https://bikroy.com/en/ad/{ad['slug']}")
-            #     print("\n")
+            for idx, ad in enumerate(ads_array, start=1):
+                print(f"Ad {idx}:")
+                print(f"Title: {ad['title']}")
+                print(f"Location: {ad['location']}")
+                print(f"Price: {ad['price']}")
+                print(f"Link: https://bikroy.com/en/ad/{ad['slug']}")
+                print("\n")
 
             # print(f"Total {len(ads_array)} ads found.")
             return ads_array
