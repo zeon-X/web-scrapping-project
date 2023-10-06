@@ -1,6 +1,7 @@
 # Bikroy Scraper
 
-Bikroy Scraper is a web scraping project built with Python and Flask. It allows users to search for products on the Bikroy.com website and displays the search results in a user-friendly interface. This project demonstrates how to scrape data from a website using the BeautifulSoup library and present it to users through a web application.
+Bikroy Scraper is a web scraping project built with Python and Flask. It allows users to search for products on the Bikroy.com website and displays the search results in a user-friendly interface. This project demonstrates how to scrape data from a website using the BeautifulSoup library and present it to users through a web application. [Watch how it works in YouTube](https://youtu.be/kfhrhtmuHbk?si=Ei91sMou2SIh5Gor)
+
 
 ## Getting Started
 
