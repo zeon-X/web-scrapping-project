@@ -9,7 +9,9 @@ app = Flask(__name__)
 # ...
 
 def scrape_bikroy(query):
+    print(query)
     base_url = f"https://bikroy.com/en/ads?query={query}"
+    # text = requests.get(url).text
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     }
